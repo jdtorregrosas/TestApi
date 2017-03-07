@@ -20,9 +20,5 @@
   "homepage": "https://github.com/jdtorregrosas/TestApi#readme",
   "dependencies": {
     "express": "^4.15.2"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  } 
+  }
 }
