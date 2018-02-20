@@ -4,6 +4,7 @@ var hoteles = require('./testData/hoteles.json');
 var vuelos = require('./testData/vuelos.json');
 var cruceros = require('./testData/cruceros.json');
 var vacaciones = require('./testData/vacaciones.json');
+var heroes = require('./testData/heroes.json');
 var app = express()
 
 app.get('/status', function (req, res) {
