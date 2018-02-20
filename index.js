@@ -12,7 +12,7 @@ app.get('/status', function (req, res) {
 })
 
 app.get('/heroes', function (req, res) {
-  res.send(hoteles);
+  res.send(heroes);
 })
 
 app.get('/automoviles', function (req, res) {
