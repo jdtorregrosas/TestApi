@@ -10,6 +10,10 @@ app.get('/status', function (req, res) {
   res.send({ status: "ok" });
 })
 
+app.get('/heroes', function (req, res) {
+  res.send(hoteles);
+})
+
 app.get('/automoviles', function (req, res) {
   res.send(automoviles);
 })
