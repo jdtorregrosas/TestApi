@@ -1,3 +1,4 @@
+var cors = require('cors');
 var express = require('express')
 var automoviles = require('./testData/automoviles.json');
 var hoteles = require('./testData/hoteles.json');
@@ -6,6 +7,8 @@ var cruceros = require('./testData/cruceros.json');
 var vacaciones = require('./testData/vacaciones.json');
 var heroes = require('./testData/heroes.json');
 var app = express()
+
+app.use(cors({ origin: '*' }));
 
 app.get('/status', function (req, res) {
   res.send({ status: "ok" });
